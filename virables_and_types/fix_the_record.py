@@ -4,7 +4,7 @@ device_name = "edge-router"
 #syntax error: variable name cannot start with a number
 second_ip = "192.0.2.1"
 #syntax error: "class" is a reserved word in python
-class_section="router"
+class_section = "router"
 #Runtime error: cannot convert string to int
 port=int("22")
 #Runtime error: printed "device_nam" which is not defined

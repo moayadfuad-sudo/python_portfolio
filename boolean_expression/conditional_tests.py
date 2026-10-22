@@ -1,9 +1,9 @@
 #conditional_tests.py
 #this program contains ten conditional tests using boolean expressions. 
-user="analyst"
-role="viewer"
-failed=3
-port=22
+user = "analyst"
+role = "viewer"
+failed = 3
+port = 22
 print("is failed >=3? i predict True")
 print(failed >=3)
 print("\n is port < 20? i predict False")

@@ -1,7 +1,7 @@
 #login_report.py
 MAX_LOGIN_ATTEMPTS = 5
 username = input("username: ")
-failed =int(input("failed attempts: "))
+failed = int(input("failed attempts: "))
 #how many attempts are left
 attempts_left = MAX_LOGIN_ATTEMPTS - failed
 print("="*30)
