@@ -1,4 +1,4 @@
-#session_timer.py
+#session_timer.py 
 total_seconds = int(input("session length in seconds: "))
 #calculate a whole minutes and the seconds left
 minutes = total_seconds//60

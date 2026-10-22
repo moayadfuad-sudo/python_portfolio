@@ -1,6 +1,6 @@
 # Gold: Research Truth Values
 # Source: https://docs.python.org/3/library/stdtypes.html#truth-value-testing
-
+#this link from ai
 # bool("") prints False because an empty string is false.
 print(bool(""))
 
