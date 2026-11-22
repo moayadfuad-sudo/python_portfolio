@@ -69,9 +69,12 @@ def search(keyword):
 def ip_report(ip):
     """Print failed logins for an IP and alert if they reach the limit."""
     count = 0
+
     for line in LOG.splitlines():
         if get_status(line) == "FAILED" and get_field(line, "ip") == ip:
-            print(get_field(line, "time"), get_field(line, "user"))
+            time = line.split()[0]
+            user = get_field(line, "user")
+            print(time, user)
             count += 1
 
     print(f"Failed logins from {ip}: {count}")
