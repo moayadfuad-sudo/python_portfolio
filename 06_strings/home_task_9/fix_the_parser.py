@@ -1,5 +1,4 @@
 # fix_the_parser.py
-#
 
 LINE = "09:02 FAILED user=Admin ip=192.0.2.7"
 
